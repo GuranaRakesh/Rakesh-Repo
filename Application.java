@@ -14,6 +14,7 @@ class Main {
 
     // create an object of Main
     Main obj = new Main();
+
 #feature202 changes by vivek for the Reports module in jul2024
 
   // method with no parameter
@@ -39,6 +40,25 @@ class Main {
   }
 }
     // calling method
+#feature201 changes by vinay for the module paymenthateway in jul2024
+ public static int square(int num) {
+
+    // return statement
+    return num * num;
+  }
+
+  public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+}
+#End of feature 201 code  
+  // calling method
     int result = obj.addNumbers(num1, num2);
     System.out.println("Sum is: " + result);
   }
